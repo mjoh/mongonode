@@ -6,6 +6,7 @@ A simple client and server for performance tests with node.js and mongodb.
 Requirements:
 
 Node.js installed on both client and server (can be the same machine). Building from source is recommended.
+
 Mongodb server running on server machine on port 27017.
 
 client:
