@@ -9,6 +9,13 @@ Node.js installed on both client and server (can be the same machine). Building 
 
 Mongodb server running on server machine on port 27017.
 
+A database on this server, for example english wikipedia abstracts.
+
+You will find some setup instructions here:
+
+https://github.com/strud/db_evaluation
+
+
 client:
 
 npm install async
