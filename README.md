@@ -10,11 +10,15 @@ Node.js installed on both client and server (can be the same machine). Building 
 Mongodb server running on server machine on port 27017.
 
 client:
+
 npm install async
+
 npm install request
 
 server:
+
 npm install express
+
 npm install mongodb
 
 
