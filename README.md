@@ -26,4 +26,4 @@ To run the scenario, just start server and client by:
 
 node server.js
 
-node client.js
+node client.js <number of requests> {simple|complex}
