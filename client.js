@@ -11,7 +11,6 @@ var t1 = new Date();
 
 var single_request = function(callback) {
     request('http://127.0.0.1:8080/' + resource, function (error, response, body) {
-        //
         if (!error && response.statusCode == 200) {
             callback(null, body);
         }
@@ -31,7 +30,6 @@ async.parallel(
         }
         var t2 = new Date();
         diff = t2.getTime() - t1.getTime();
-        // console.log(res);
         console.log('elapsed time: ' + diff + 'ms');
     }
 );

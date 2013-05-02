@@ -31,6 +31,8 @@ npm install mongodb
 
 ## Running
 
+Replace the IP adresses in client and server according to your setup.
+
 To run the scenario, just start server and client by:
 
 node server.js
