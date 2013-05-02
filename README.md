@@ -14,7 +14,7 @@ Setup instructions for the db can be found here:
 
 https://github.com/strud/db_evaluation
 
-* The followinf node.js modules:
+* The following node.js modules:
 
 client:
 
