@@ -1,20 +1,20 @@
-mongonode
-=========
+# MongoDB + node.js
 
-A simple client and server for performance tests with node.js and mongodb.
+A simple client and server for performance tests with mongodb and node.js .
 
-Requirements:
+## Requirements:
 
-Node.js installed on both client and server (can be the same machine). Building from source is recommended.
+* Node.js installed on both client and server (can be the same machine). Building from source is recommended.
 
-Mongodb server running on server machine on port 27017.
+* Mongodb server running on server machine on port 27017.
 
-A database on this server, for example english wikipedia abstracts.
+* A database on this server, for example english wikipedia abstracts.
 
-You will find some setup instructions here:
+Setup instructions for the db can be found here:
 
 https://github.com/strud/db_evaluation
 
+* The followinf node.js modules:
 
 client:
 
@@ -28,6 +28,8 @@ npm install express
 
 npm install mongodb
 
+
+## Running
 
 To run the scenario, just start server and client by:
 
