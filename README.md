@@ -18,16 +18,19 @@ https://github.com/strud/db_evaluation
 
 client:
 
+````
 npm install async
 
 npm install request
+````
 
 server:
 
+````
 npm install express
 
 npm install mongodb
-
+````
 
 ## Running
 
@@ -35,10 +38,11 @@ Replace the IP adresses in client and server according to your setup.
 
 To run the scenario, just start server and client by:
 
+````
 node server.js
 
 node client.js number_of_requests {simple|complex}
 
-e.g. node client.js 10000 simple
-
+# e.g. node client.js 10000 simple
+````
 
